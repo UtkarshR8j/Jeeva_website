@@ -1,0 +1,66 @@
+
+.contain{
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	background-image: url('../img/j-lee-FguFp1l5X0E-unsplash.jpg');
+	background-size: cover;
+	position: relative;
+    background-position: center;
+   -webkit-background-size: cover; 
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  
+  margin: 40px;
+  backdrop-filter: contrast(.8)
+
+
+}
+
+
+html,body {
+	height: 100%;
+	font-size: 100%;
+	font-family: "Open Sans", helvetica, arial, sans-serif;
+	color: rgb(0, 0, 0);
+}
+
+img{
+position: relative;
+top: 250px;
+left: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.middle {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: top;
+	backdrop-filter: blur(100px) ;
+	height: 80%;
+
+	
+}
+
+
+.box{width: 100%;
+	box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+	backdrop-filter: blur(10px) ;
+}
+
+a {
+	font-weight: bold;
+	color: #FFF;
+}
+a:hover {
+	text-decoration: underline;
+	color: #FFF;
+}
+
+p{
+	 border: 0; 
+	 font-size: 100%; 
+	 font: inherit; 
+}
+
