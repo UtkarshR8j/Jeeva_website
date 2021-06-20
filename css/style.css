@@ -78,4 +78,5 @@ p{
 	width: 30%; float: left;position: relative;top:70%;margin-left: 30px;min-height: 50px;
 	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;padding: 10px;;
 	backdrop-filter: blur(4px);
+	
 }
