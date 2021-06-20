@@ -2,16 +2,11 @@
 .contain{
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-	background-image: url('../img/j-lee-FguFp1l5X0E-unsplash.jpg');
-	background-size:cover;
-	position: relative;
-    background-position:center;
-   -webkit-background-size: cover; 
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
 
-  margin: 40px;
+	position: relative;
+  
+
+  margin: 0px;
 
 
 }
@@ -22,6 +17,11 @@ html,body {
 	font-size: 100%;
 	font-family: "Open Sans", helvetica, arial, sans-serif;
 	color: rgb(0, 0, 0);
+	background: url('../img/j-lee-FguFp1l5X0E-unsplash.jpg') no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 }
 
 .middle img{
@@ -39,9 +39,8 @@ left: 200px;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	text-align: top;
-	\*backdrop-filter: blur(100px) ;*\
+	
 	height: 80%;
-
 }
 
 .prod{
@@ -49,11 +48,15 @@ left: 200px;
 	box-shadow: rgba(0, 0, 0, 0.9) 0px 10px 30px, rgba(0, 0, 0, 0.3) 0px 6px 6px;
 	position: relative;top:80%;overflow: auto;
 	max-height: auto;
+	backdrop-filter: blur(10px);
+
 }
 
 .box{width: 100%;
 	box-shadow: rgba(0, 0, 0, 0.9) 0px 10px 30px, rgba(0, 0, 0, 0.3) 0px 6px 6px;
-position:relative;top:80%;height:auto; margin-bottom:-180px;
+position:relative;top:80%;height:auto; margin-bottom:-180px; 	backdrop-filter: blur(10px);
+
+
 }
 
 a {
