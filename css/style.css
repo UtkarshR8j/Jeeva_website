@@ -55,9 +55,7 @@ left: 45%;
 
 .box{width: 100%;
 	box-shadow: rgba(0, 0, 0, 0.9) 0px 10px 30px, rgba(0, 0, 0, 0.3) 0px 6px 6px;
-position:relative;top:80%;height:auto; margin-bottom:-180px; 	backdrop-filter: blur(10px);
-backdrop-filter: blur(15px);
-
+position:relative;top:80%;height:auto; margin-bottom:-180px; 
 }
 
 a {
@@ -81,3 +79,11 @@ p{
 	backdrop-filter: blur(8px);
 	
 }
+
+.button {
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+	backdrop-filter: blur(0px);
+	border-color: #000000;
+	color:white;
+	cursor: pointer;
+  }
